@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, regular, bold;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  padding: .6em;
+  color: #fff;
+  margin: 0;
+}
+
+img {
+  display: flex;
+  width: 40px;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+li {
+  width: 33.333%;
+  border: 1px solid #a63f38;
+}
+body {
+  margin: 0;
+}
+.nav {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-family: Merriweather, regular bold;
+  color: #fff;
+  font-size: 1.125rem;
+  background-color: #d05c2e;
+  display: inline-block;
+  padding: 0, .5em 0, .4rem 0;
+  border-radius: 4px;
+
+  text-decoration: none;
+}
+
+nav li:hover;
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.cards a :hover {
+  background-color: #b20953;
+}
