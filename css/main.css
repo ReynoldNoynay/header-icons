@@ -38,14 +38,6 @@ li {
   border: 1px solid #a63f38;
 }
 
-a {
-  display: inline-block;
-
-
-}
-body {
-  margin: 0;
-}
 .nav {
   list-style-type: none;
   text-align: center;
@@ -58,8 +50,6 @@ a {
   color: #fff;
   font-size: 1.125rem;
   background-color: #d05c2e;
-  display: inline-block;
-  padding: 0, .5em 0, .4rem 0;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -76,7 +66,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 .cards a :hover {
