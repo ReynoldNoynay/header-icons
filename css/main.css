@@ -41,6 +41,7 @@ li {
 a {
   display: inline-block;
 
+
 }
 body {
   margin: 0;
@@ -68,9 +69,14 @@ background-color: #a63f38;
 color: #fff;
 }
 
-nav ul {
+ul {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 
 .cards a :hover {
