@@ -37,6 +37,11 @@ li {
   width: 33.333%;
   border: 1px solid #a63f38;
 }
+
+a {
+  display: inline-block;
+
+}
 body {
   margin: 0;
 }
@@ -47,20 +52,21 @@ body {
   margin-top: 0;
 }
 
-.nav li {
+a {
   display: inline-block;
-  font-family: Merriweather, regular bold;
   color: #fff;
   font-size: 1.125rem;
   background-color: #d05c2e;
   display: inline-block;
   padding: 0, .5em 0, .4rem 0;
   border-radius: 4px;
-
   text-decoration: none;
 }
 
-nav li:hover;
+a:hover {
+background-color: #a63f38;
+color: #fff;
+}
 
 nav ul {
   margin: 0;
@@ -69,4 +75,9 @@ nav ul {
 
 .cards a :hover {
   background-color: #b20953;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
