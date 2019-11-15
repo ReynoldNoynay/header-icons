@@ -55,8 +55,8 @@ a {
 }
 
 a:hover {
-background-color: #a63f38;
-color: #fff;
+  background-color: #a63f38;
+  color: #fff;
 }
 
 ul {
@@ -71,6 +71,7 @@ ul {
 .cards a :hover {
   background-color: #b20953;
 }
+
 div {
   display: flex;
   justify-content: space-between;
